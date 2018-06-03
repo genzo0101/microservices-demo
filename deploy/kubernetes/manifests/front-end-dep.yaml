@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: weaveworksdemos/front-end:0.3.12
+#        image: weaveworksdemos/front-end:0.3.12
+        image: quay.io/genzo0101/front-end:deploy-tag
         resources:
           limits:
             cpu: 300m
